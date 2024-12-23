@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/Logo_ULA.png">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>PHP</title>
+</head>
+<body>
+    <header>
+        <div class="logo">PHP</div>
+        <nav class="barra">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">PHP</a></li>
+                <li><a href="../pages/SOA.html">SOA</a></li>
+                <li><a href="../pages/HTML5.html">HTML5</a></li>
+                <li><a href="../pages/CSS3.html">CSS3</a></li>
+            </ul>
+        </nav>
+        <div class="menu">
+            <ul>
+                <li><a href=""><i class="fa-solid fa-bars"></i></a>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="../pages/SOA.html">SOA</a></li>
+                    <li><a href="../pages/HTML5.html">HTML5</a></li>
+                    <li><a href="../pages/CSS3.html">CSS3</a></li>
+                </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="call">
+        <h1>¿Que es PHP?</h1>
+    </div>
+    </main>
+    <div class="textinfo">
+        <h2>PHP: Lenguaje Versátil para el Desarrollo Web</h2><br>
+        <p>PHP (Hypertext Preprocessor) es un lenguaje de programación de propósito general enfocado en el desarrollo web del lado del servidor, su principal fortaleza radica en su capacidad para generar contenido dinámico en páginas web, permitiendo que los sitios respondan y se adapten a las acciones de los usuarios.<br>
+            PHP es ampliamente utilizado en aplicaciones web, desde blogs personales hasta plataformas masivas como Facebook y WordPress.<br>
+            Entre las características más destacadas de PHP se encuentra su facilidad de uso, especialmente para principiantes, y su compatibilidad con la mayoría de servidores web y sistemas operativos, su sintaxis simple y flexible facilita la creación de scripts desde tareas básicas, como procesar formularios, hasta funciones avanzadas, como la gestión de bases de datos.</p>
+        <div class="imgphp">
+            <img src="../assets/phplogo.png" alt="" style="background-color: rgba(255, 255, 255, 0.74); padding: 20px;">
+        </div>
+        <p>Una de las mayores ventajas de PHP es su capacidad para manejar sesiones y cookies, esenciales para aplicaciones como carritos de compras o plataformas personalizadas.<br>
+            También permite desarrollar APIs RESTful, siendo ideal para aplicaciones modernas.</p>
+    </div>
+
+        <form method="post" action="../php/insertar.php">
+            <h3 style="text-align: center;">Registrate en la base de datos mediante el siguiente formulario:</h3><br>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <input class="button" type="submit" value="Registrar">
+        </form>
+
+        <div class="call" style="text-align: center; font-size: 25px;"><a style="color: yellowgreen"  href="../php/mostrar.php">Haz Click aquí para Mostrar Usuarios Registrados</a></div> 
+
+    <footer>
+        <h3>Creado por Oscar Gaitán - Matricula U99360422</h3><br>
+    </footer>
+</body>
+</html>
